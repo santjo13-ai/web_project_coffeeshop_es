@@ -1,0 +1,120 @@
+header {
+  background-color: #fff;
+  background-image: url(/Imagenes/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  min-width: 800px;
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 26px;
+}
+.nav-logo {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 30px;
+  height: 39px;
+  width: 105px;
+  flex-direction: row;
+}
+.nav-links {
+  display: flex;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+  list-style: none;
+  justify-content: space-between;
+}
+.nav-link {
+  color: #000000;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.nav-link:hover {
+  color: #e75314;
+}
+.header-content {
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  margin-right: 5px;
+  align-items: center;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+}
+.header-title {
+  display: flex;
+  flex-direction: column;
+  font-family: "Times New Roman", Arial, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #ff976b;
+  max-width: 709px;
+}
+.header-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-content: center;
+  height: 568px;
+  width: 646px;
+}
+.span-accent {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  color: #000000;
+}
+.header-description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 683px;
+}
+.header-hours {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
+}
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 40px;
+}
+.header-hours {
+  color: #6f6f6f;
+}
+.header-address {
+  display: flex;
+  align-items: end;
+  color: #6f6f6f;
+}
