@@ -61,39 +61,60 @@
       </div>
     </header>
     <main class="content">
-      <h2>Reservar una mesa</h2>
-      <form class="form" method="post">
-        <label class="form-label" for="nombre">Nombre</label>
-        <input
-          type="text"
-          class="form__input"
-          minlength="3"
-          maxlength="20"
-          placeholder="Nombre"
-          id="nombre"
-          required
-        />
-        <label class="form-label" for="comensales">Numero de comensales</label>
-        <input
-          type="number"
-          class="form-input"
-          min="1"
-          max="8"
-          placeholder="1 - 8"
-          id="comensales"
-          required
-        />
-        <label class="form-label" for="fecha">Fecha y hora</label>
-        <input type="date" class="form-input" id="fecha" required />
-        <label class="form-label" for="correo">Correo electrónico</label>
-        <input
-          type="email"
-          class="form-input"
-          placeholder="email@emial.com"
-          id="correo"
-          required
-        />
-      </form>
+      <div class="form-container">
+        <h2 class="form-title">Reservar una mesa</h2>
+        <form class="form" method="post">
+          <label class="form-label" for="nombre">Nombre</label>
+          <input
+            type="text"
+            class="form-input"
+            minlength="3"
+            maxlength="20"
+            placeholder="Nombre"
+            id="nombre"
+            required
+          />
+          <label class="form-label" for="comensales"
+            >Numero de comensales</label
+          >
+          <input
+            type="number"
+            class="form-input"
+            min="1"
+            max="8"
+            placeholder="1 - 8"
+            id="comensales"
+            required
+          />
+          <label class="form-label" for="fecha">Fecha y hora</label>
+          <input type="datetime-local" class="form-input" id="fecha" required />
+          <label class="form-label" for="correo">Correo electrónico</label>
+          <input
+            type="email"
+            class="form-input"
+            placeholder="email@emial.com"
+            id="correo"
+            required
+          />
+          <button
+            type="submit"
+            class="form-button form-button-submit"
+            for="términos"
+            disabled
+          >
+            Reservar una mesa
+          </button>
+          <label>
+            <input
+              type="checkbox"
+              id="términos"
+              class="form-checkbox"
+              required
+            />
+            Acepto los términos de uso
+          </label>
+        </form>
+      </div>
     </main>
     <footer class="footer"></footer>
   </body>
