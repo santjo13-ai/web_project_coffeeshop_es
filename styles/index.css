@@ -121,7 +121,7 @@ body {
   align-items: end;
   color: #6f6f6f;
 }
-.content {
+.reservation {
   background-color: #ffd6c5;
   background-image: url(../images/background_reservation.svg);
   background-repeat: no-repeat;
@@ -130,19 +130,20 @@ body {
   display: flex;
   flex-direction: column;
 }
-.form {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  padding: 80px 0px;
-  width: 385px;
-}
-.form-title {
+.reservation-title {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  padding-top: 100px;
+  margin: 0 auto 80px;
+}
+.reservation-form {
+  margin: 0 auto 120px;
+}
+.form {
+  max-width: 385px;
 }
 .form-label {
   font-family: "Inter";
@@ -150,6 +151,7 @@ body {
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  width: 100%;
 }
 .form-input,
 .form-buttom {
@@ -159,4 +161,25 @@ body {
   font-size: 16px;
   line-height: 20px;
   border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 20px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+.form-button {
+  height: 60px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+.form-label-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-checkbox {
+  border-radius: 2px;
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
 }

@@ -61,9 +61,9 @@
       </div>
     </header>
     <main class="content">
-      <div class="form-container">
-        <h2 class="form-title">Reservar una mesa</h2>
-        <form class="form" method="post">
+      <section class="reservation" id="reservation">
+        <h2 class="reservation-title">Reservar una mesa</h2>
+        <form class="reservation-form form" method="post">
           <label class="form-label" for="nombre">Nombre</label>
           <input
             type="text"
@@ -96,15 +96,10 @@
             id="correo"
             required
           />
-          <button
-            type="submit"
-            class="form-button form-button-submit"
-            for="términos"
-            disabled
-          >
+          <button type="submit" class="form-button" for="términos" disabled>
             Reservar una mesa
           </button>
-          <label>
+          <label class="form-label form-label-checkbox">
             <input
               type="checkbox"
               id="términos"
@@ -114,7 +109,7 @@
             Acepto los términos de uso
           </label>
         </form>
-      </div>
+      </section>
     </main>
     <footer class="footer"></footer>
   </body>
