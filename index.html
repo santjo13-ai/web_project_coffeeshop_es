@@ -64,7 +64,7 @@
       <section class="reservation" id="reservation">
         <h2 class="reservation-title">Reservar una mesa</h2>
         <form class="reservation-form form" method="post">
-          <label class="form-label" for="nombre">Nombre</label>
+          <label class="form-label" for="nombre">Nombre *</label>
           <input
             type="text"
             class="form-input"
@@ -75,7 +75,7 @@
             required
           />
           <label class="form-label" for="comensales"
-            >Numero de comensales</label
+            >Numero de comensales *</label
           >
           <input
             type="number"
@@ -86,9 +86,9 @@
             id="comensales"
             required
           />
-          <label class="form-label" for="fecha">Fecha y hora</label>
+          <label class="form-label" for="fecha">Fecha y hora *</label>
           <input type="datetime-local" class="form-input" id="fecha" required />
-          <label class="form-label" for="correo">Correo electrónico</label>
+          <label class="form-label" for="correo">Correo electrónico *</label>
           <input
             type="email"
             class="form-input"
@@ -111,6 +111,12 @@
         </form>
       </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <img
+        class="nav-logo"
+        src="./images/logo_coffeeshop_light.svg"
+        alt="Logo_coffeeshop"
+      />
+    </footer>
   </body>
 </html>

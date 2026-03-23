@@ -82,7 +82,7 @@ body {
   width: 646px;
 }
 .span-accent {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 58px;
@@ -91,7 +91,7 @@ body {
   color: #000000;
 }
 .header-description {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -99,7 +99,7 @@ body {
   max-width: 683px;
 }
 .header-hours {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -131,7 +131,7 @@ body {
   flex-direction: column;
 }
 .reservation-title {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -146,7 +146,7 @@ body {
   max-width: 385px;
 }
 .form-label {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -155,7 +155,7 @@ body {
 }
 .form-input,
 .form-buttom {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -171,6 +171,10 @@ body {
   height: 60px;
   width: 100%;
   margin-bottom: 32px;
+  background-color: E96E3A;
+  color: #fff;
+}
+.form-input {
 }
 .form-label-checkbox {
   display: flex;
@@ -182,4 +186,7 @@ body {
   margin-right: 12px;
   width: 20px;
   height: 20px;
+}
+footer {
+  background-color: #d35722;
 }
