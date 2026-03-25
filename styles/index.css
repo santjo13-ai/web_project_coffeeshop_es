@@ -121,6 +121,10 @@ body {
   align-items: end;
   color: #6f6f6f;
 }
+.content {
+  position: relative;
+  z-index: 2;
+}
 .reservation {
   background-color: #ffd6c5;
   background-image: url(../images/background_reservation.svg);
@@ -185,15 +189,43 @@ body {
   width: 20px;
   height: 20px;
 }
-footer {
+.footer {
   background-color: #d35722;
+  position: relative;
+  overflow: hidden;
+}
+.circle-footer {
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  background-color: #e96e3a;
+  z-index: -1;
+  border-radius: 50%;
+  left: -44px;
+  top: -128px;
+}
+.info-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 .nav-logo-footer {
-  display: flex;
-  margin-left: 80px;
-  margin-top: 60px;
   height: 39px;
   width: 105px;
+  z-index: 2;
+  position: relative;
+}
+.contenedor-redes {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.logo-redes {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
 }
 .titulo-texto-redes {
   font-family: "Inter";
@@ -201,6 +233,8 @@ footer {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+  color: #fff;
+  margin-bottom: 20px;
 }
 .nav-redes {
   font-family: "Inter";
@@ -208,4 +242,19 @@ footer {
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+.enlace-facebook {
+  margin-bottom: 16px;
+}
+.link-redes {
+  list-style: none;
+}
+.copyright-footer {
+  display: flex;
+  margin-top: 108px;
+  margin-left: 80px;
+  margin-bottom: 60px;
+  color: #fff;
 }
