@@ -135,7 +135,7 @@ body {
   flex-direction: column;
 }
 .reservation-title {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -150,7 +150,7 @@ body {
   max-width: 385px;
 }
 .form-label {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -159,7 +159,7 @@ body {
 }
 .form-input,
 .form-buttom {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -231,7 +231,7 @@ body {
   margin-right: 10px;
 }
 .titulo-texto-redes {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -240,7 +240,7 @@ body {
   margin-bottom: 20px;
 }
 .nav-redes {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
